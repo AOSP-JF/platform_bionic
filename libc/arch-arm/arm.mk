@@ -24,7 +24,6 @@ libc_openbsd_src_files_arm += \
 
 libc_bionic_src_files_arm += \
     bionic/memrchr.c \
-    bionic/strchr.cpp \
     bionic/strnlen.c \
 
 libc_freebsd_src_files_arm += \
@@ -63,7 +62,8 @@ libc_bionic_src_files_arm += \
     arch-arm/bionic/sigsetjmp.S \
     arch-arm/bionic/syscall.S \
     arch-arm/bionic/idiv.S \
-    arch-arm/bionic/strrchr.S
+    arch-arm/bionic/strrchr.S \
+    arch-arm/bionic/strchr.S \
 
 libc_arch_static_src_files_arm := arch-arm/bionic/exidx_static.c
 libc_arch_dynamic_src_files_arm := arch-arm/bionic/exidx_dynamic.c
