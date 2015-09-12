@@ -64,7 +64,6 @@ libc_bionic_src_files_arm += \
     arch-arm/bionic/idiv.S \
     arch-arm/bionic/strrchr.S \
     arch-arm/bionic/strchr.S \
-    arch-arm/bionic/strrchr.S \
 
 libc_arch_static_src_files_arm := arch-arm/bionic/exidx_static.c
 libc_arch_dynamic_src_files_arm := arch-arm/bionic/exidx_dynamic.c
